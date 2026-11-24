@@ -1,0 +1,71 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="WV0VVM4w3tED_tQvB8Bj">
+    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="shEBT1hKEHpVE5IWIxIY-3" edge="1" parent="1" source="shEBT1hKEHpVE5IWIxIY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="shEBT1hKEHpVE5IWIxIY-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#000000,#FF3333);fontColor=#ffffff;strokeColor=#005700;gradientColor=none;" value="kali&lt;div&gt;10.10.10.30&lt;/div&gt;&lt;div&gt;Attacker&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="60" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="shEBT1hKEHpVE5IWIxIY-6" edge="1" parent="1" source="shEBT1hKEHpVE5IWIxIY-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="shEBT1hKEHpVE5IWIxIY-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="web-victim&lt;div&gt;10.10.10.20&lt;/div&gt;&lt;div&gt;DVWA + SSH + Filebeat&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="shEBT1hKEHpVE5IWIxIY-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="elk-siem&lt;div&gt;10.10.10.10&lt;/div&gt;&lt;div&gt;Elastic + Kibana&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="580" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="shEBT1hKEHpVE5IWIxIY-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeColor=light-dark(#005700,#B3B3B3);align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;strokeWidth=3;labelBorderColor=default;textShadow=0;dashed=1;connectable=0;arcSize=13;" value="" vertex="1">
+          <mxGeometry height="300" width="705" x="50" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="lGYFPBS6PkOP-770RkpS-5" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBorderColor=none;textShadow=0;" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Soc - lab NAT network&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="80" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lGYFPBS6PkOP-770RkpS-6" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FF0000;labelBorderColor=none;textShadow=0;" value="&lt;div&gt;10.10.10.0/24&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="80" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="lGYFPBS6PkOP-770RkpS-24" edge="1" parent="1" source="lGYFPBS6PkOP-770RkpS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;">
+          <mxGeometry relative="1" x="0.0533" as="geometry">
+            <mxPoint x="600" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lGYFPBS6PkOP-770RkpS-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeColor=#314354;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;fillColor=#647687;" value="My browser&lt;div&gt;Opens Kibana&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="60" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lGYFPBS6PkOP-770RkpS-25" parent="1" style="shape=table;startSize=0;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;align=center;resizeLast=1;strokeColor=none;fillColor=none;collapsible=0;whiteSpace=wrap;html=1;rounded=0;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="30" width="180" x="200" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lGYFPBS6PkOP-770RkpS-26" parent="lGYFPBS6PkOP-770RkpS-25" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;rounded=0;strokeColor=#005700;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="30" width="180" as="geometry" />
+        </mxCell>
+        <mxCell id="lGYFPBS6PkOP-770RkpS-27" parent="lGYFPBS6PkOP-770RkpS-26" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;rounded=0;strokeColor=#005700;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lGYFPBS6PkOP-770RkpS-28" parent="lGYFPBS6PkOP-770RkpS-26" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;rounded=0;strokeColor=#005700;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=light-dark(#FFFFFF,#696969);" value="TCP 5601" vertex="1">
+          <mxGeometry height="30" width="150" x="30" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lGYFPBS6PkOP-770RkpS-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeColor=#314354;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;fillColor=#647687;" value="Gateway 10.10.10.1&lt;div&gt;NAT to internet&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lGYFPBS6PkOP-770RkpS-32" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;fillColor=#647687;strokeColor=#314354;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="675" y="255" as="sourcePoint" />
+            <mxPoint x="675" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
